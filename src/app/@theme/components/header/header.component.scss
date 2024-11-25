@@ -9,7 +9,7 @@
 
   .logo-container {
     display: flex;
-    align-items: center;
+    align-items: left;
     width: calc(#{nb-theme(sidebar-width)} - #{nb-theme(header-padding)});
   }
 
@@ -67,4 +67,17 @@
       display: none;
     }
   }
+}
+
+
+.img-banner{
+  width: 200px;
+}
+
+.color-rojo-menu{
+  color: #DB0032 !important;
+}
+
+.cursor-menu{
+  cursor: pointer !important;
 }
